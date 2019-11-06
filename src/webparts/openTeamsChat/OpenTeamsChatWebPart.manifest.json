@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "2ed01b8d-2dbc-47ca-9e96-3f9de0867824",
+  "alias": "OpenTeamsChatWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Open Teams Chat" },
+    "description": { "default": "Web part to open teams chat with one or more participants." },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "caption": "Open Teams Chat",
+      "topic": "",
+      "message": "",
+      "usePageInfo": false
+    }
+  }]
+}
